@@ -1,7 +1,9 @@
 # tournament
 ## Introduction: 
   This is a course project of Udacity course: Relational Databases. In this project, you need to write a Python module that uses the PostgreSQL database to keep track of players and matches in a game tournament. 
+  
 The game tournament will use the Swiss system for pairing up players in each round: players are not eliminated, and each player should be paired with another player with the same number of wins, or as close as possible.
+
 This project has two parts: defining the database schema (SQL table definitions), and writing the code that will use it. For details, you may refer to [GettingStartedGuide] https://docs.google.com/document/d/16IgOm4XprTaKxAa8w02y028oBECOoB1EI1ReddADEeY/pub?embedded=true.
 ## What's inside:
 * tournament.sql
