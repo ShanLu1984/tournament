@@ -51,7 +51,7 @@ swissPairings() | (no input) | A list of tuples, each of which contains (id1, na
 
 ## How to run:
 1. Install Vagrant https://www.vagrantup.com/ and VirtualBox https://www.virtualbox.org/.
-1. Use Github to fork and clone the repository https://github.com/udacity/fullstack-nanodegree-vm.
+1. Use Github to fork and clone the repository https://github.com/udacity/fullstack-nanodegree-vm and then copy my project code into the tournament folder under the vagrant folder and replace the original files (tournament.sql, tournament.py, tournament_test.py). Or you could just copy my code (tournament.sql, tournament.py, tournament_test.py) into the tournament folder, put the tournament folder as long as the Vagrantfile (I include it in my repository) into the vagrant folder.
 1. Start Vagrant by changing the directory to the vagrant directory and run `vagrant up`
 1. Log into Vagrant virtual machine with: `vagrant ssh`
 1. Move to tournament directory: `cd /vagrant/tournament/`
