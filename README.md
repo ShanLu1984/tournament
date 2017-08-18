@@ -45,7 +45,7 @@ function | input  | output | usage
 ------------ | ------------- |-------------- | ------------- 
 registerPlayer(name) | name as string | (no output) | register a player to the database
 countPlayers() | (no input) | integer | get the number of players currently registered
-reportMatch(winner, loser) | winner as integer, loser as integer | (no output) | record the outcome of a single match
+reportMatch(winner, loser) | winner as string, loser as string | (no output) | record the outcome of a single match
 playerStandings() | (no input) | A list of tuples, each of which contains (id, name, wins, matches) | get the current matching results of all the registered players
 swissPairings() | (no input) | A list of tuples, each of which contains (id1, name1, id2, name2) | get the pairs of players for the next round of match
 
