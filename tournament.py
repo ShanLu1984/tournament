@@ -113,12 +113,8 @@ def swissPairings():
     c.execute("select * from player_wins;")
     result = c.fetchall()
     conn.close()
-    l = []
-    i = 0
-    while len(result) > 0:
-        l.append((result[0][0], result[0][1]))
-        result.pop(0)
-        l[i] += (result[0][0], result[0][1])
-        result.pop(0)
-        i += 1
+    l = [(result[i][0],
+          result[i][1],
+          result[i+1][0],
+          result[i+1][1]) for i in range(0, len(result), 2)]
     return l
